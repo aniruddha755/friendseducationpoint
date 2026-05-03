@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos - Friend Education Point</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo-section">
+                <img src="assets/logo.jpeg" alt="Friend Education Point Logo" class="logo-img" onerror="this.src='https://placehold.co/100x100/007bff/white?text=Logo'">
+                <span class="logo-text">Friend Education Point</span>
+            </a>
+            
+            <div class="nav-links" id="nav-links">
+                <a href="index.html#home">Home</a>
+                <a href="categories.html">Categories</a>
+                <a href="#" class="active">Videos</a>
+                <a href="documents.html">Documents</a>
+            </div>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="icon-btn" aria-label="Toggle Dark Mode">
+                    <i data-lucide="moon" class="moon-icon"></i>
+                    <i data-lucide="sun" class="sun-icon"></i>
+                </button>
+                <a href="https://youtube.com/@friendseducationpoint?si=jBwFK2cjfAd7kTDI" target="_blank" class="primary-btn upload-btn" style="text-decoration: none; background-color: #ff0000;">
+                    <i data-lucide="youtube"></i> Subscribe YouTube Channel
+                </a>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1>Video Tutorials</h1>
+        <p>Watch and learn from our comprehensive YouTube videos.</p>
+    </header>
+
+    <!-- Video Grid Section -->
+    <section class="video-page-section">
+        <div class="video-page-grid" id="video-grid-container">
+            <!-- Videos will be injected here dynamically by script.js -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-text">Friend Education Point</span>
+                <p>Empowering minds with accessible education.</p>
+            </div>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Friend Education Point. All rights reserved.
+            <div style="font-size: 0.75rem; margin-top: 0.5rem; opacity: 0.7;">Website created by Aniruddha Mondal</div>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
